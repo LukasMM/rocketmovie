@@ -10,7 +10,9 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
 
-    a {
+    button {
+      background: none;
+      border: none;
       color: ${({ theme }) => theme.COLORS.PINK};
       font-size: 1.6rem;
       font-weight: 400;
@@ -66,6 +68,8 @@ export const Form = styled.form`
     border-radius: 0.8rem;
 
     margin-bottom: 4rem;
+
+    flex-wrap: wrap;
   }
 
   .btn-secondary {

@@ -10,7 +10,9 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
 
-    a {
+    button {
+      background: none;
+      border: none;
       color: ${({ theme }) => theme.COLORS.PINK};
       font-size: 1.6rem;
       font-weight: 400;
@@ -19,6 +21,12 @@ export const Container = styled.div`
       align-items: center;
       gap: 0.8rem;
     }
+  }
+  
+  .btn-secondary {
+    margin-top: 4rem;
+    background-color: ${({ theme }) => theme.COLORS.BLACK};
+    color: ${({ theme }) => theme.COLORS.PINK};
   }
 `
 

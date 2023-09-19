@@ -52,6 +52,7 @@ export const Profile = styled.div`
     }
 
     span {
+      cursor: pointer;
       font-size: 1.4rem;
       font-weight: 400;
       color: ${({ theme }) => theme.COLORS.PLACEHOLDER};
